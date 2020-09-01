@@ -1,7 +1,7 @@
-package com.stepDefinition;
+package com.loginSteps;
 
 import com.baseClass.Library;
-import com.pages.LoginPage;
+import com.loginPages.LoginPage;
 import com.seleniumReusableFunctions.SeleniumUtilities;
 
 import io.cucumber.java.en.Given;
@@ -20,7 +20,7 @@ public class LoginSteps extends Library{
 
 	@When("Enter Email and password")
 	public void enter_Email_and_password() {
-         lpage=new LoginPage(driver);
+        lpage=new LoginPage(driver);
 		 lpage.login(properties.getProperty("loginEmail"), properties.getProperty("LoginPassword"));
 		 logger.info("LoginEmail and password entered successfully");
 	
@@ -42,6 +42,5 @@ public class LoginSteps extends Library{
 		tearDown();
 	   
 	}
-
 
 }
