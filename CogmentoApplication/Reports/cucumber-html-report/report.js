@@ -13,131 +13,105 @@ formatter.step({
   "name": "launch the browser and navigate to the URL",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.launch_the_browser_and_navigate_to_the_URL()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "submit username and password",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.submit_username_and_password()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "should be logged in to home page",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.should_be_logged_in_to_home_page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "click on setting gear in activity section",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.click_on_setting_gear_in_activity_section()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "dropdown for activity option should come",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.dropdown_for_activity_option_should_come()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "select companies",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.select_companies()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "click on first company link",
   "keyword": "And "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.click_on_first_company_link()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Company detal information should come",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.company_detal_information_should_come()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "click on edit",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.click_on_edit()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "it should allow editing company information",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.it_should_allow_editing_company_information()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "edit company address",
   "keyword": "And "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.edit_company_address()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "click on save",
   "keyword": "And "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.click_on_save()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "company information should be saved successfully",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.stepDefinition.HomeSteps.company_information_should_be_saved_successfully()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.uri("file:src/test/resources/Features/TestCases.feature");
 formatter.feature({
@@ -155,7 +129,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.launch_the_browser_and_navigate_to_the_URL()"
+  "location": "com.loginSteps.LoginSteps.launch_the_browser_and_navigate_to_the_URL()"
 });
 formatter.result({
   "status": "passed"
@@ -165,7 +139,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.enter_Email_and_password()"
+  "location": "com.loginSteps.LoginSteps.enter_Email_and_password()"
 });
 formatter.result({
   "status": "passed"
@@ -175,7 +149,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.click_the_login_button()"
+  "location": "com.loginSteps.LoginSteps.click_the_login_button()"
 });
 formatter.result({
   "status": "passed"
@@ -185,7 +159,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.get_the_page_title_and_screen_shot()"
+  "location": "com.loginSteps.LoginSteps.get_the_page_title_and_screen_shot()"
 });
 formatter.result({
   "status": "passed"

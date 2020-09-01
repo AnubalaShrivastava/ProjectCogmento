@@ -160,3 +160,27 @@
 2020-09-01 09:19:12,069 - com.baseClass.Library -INFO - Login successfully
 2020-09-01 09:19:13,693 - com.baseClass.Library -INFO - Take Screen Shot
 2020-09-01 09:19:14,531 - com.baseClass.Library -INFO - Exiting the application and closing the browser
+2020-09-01 11:46:49,281 - com.baseClass.Library -INFO - Starting with Browser Set Up
+2020-09-01 11:46:53,375 - com.baseClass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-01 11:46:57,062 - com.baseClass.Library -INFO - Launched the Cogmento Application
+2020-09-01 11:46:57,063 - com.baseClass.Library -INFO - Browser Launched and navigate to URL
+2020-09-01 11:46:57,402 - com.baseClass.Library -INFO - LoginEmail and password entered successfully
+2020-09-01 11:46:57,461 - com.baseClass.Library -INFO - Login successfully
+2020-09-01 11:46:58,752 - com.baseClass.Library -INFO - Take Screen Shot
+2020-09-01 11:46:59,570 - com.baseClass.Library -INFO - Exiting the application and closing the browser
+2020-09-01 11:47:33,303 - com.baseClass.Library -INFO - Starting with Browser Set Up
+2020-09-01 11:47:37,186 - com.baseClass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-01 11:47:40,675 - com.baseClass.Library -INFO - Launched the Cogmento Application
+2020-09-01 11:47:40,676 - com.baseClass.Library -INFO - Browser Launched and navigate to URL
+2020-09-01 11:47:41,149 - com.baseClass.Library -INFO - LoginEmail and password entered successfully
+2020-09-01 11:47:41,215 - com.baseClass.Library -INFO - Login successfully
+2020-09-01 11:47:41,824 - com.baseClass.Library -INFO - Take Screen Shot
+2020-09-01 11:47:43,350 - com.baseClass.Library -INFO - Exiting the application and closing the browser
+2020-09-01 12:05:43,284 - com.baseClass.Library -INFO - Starting with Browser Set Up
+2020-09-01 12:05:47,682 - com.baseClass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-01 12:05:52,109 - com.baseClass.Library -INFO - Launched the Cogmento Application
+2020-09-01 12:05:52,110 - com.baseClass.Library -INFO - Browser Launched and navigate to URL
+2020-09-01 12:05:52,635 - com.baseClass.Library -INFO - LoginEmail and password entered successfully
+2020-09-01 12:05:52,739 - com.baseClass.Library -INFO - Login successfully
+2020-09-01 12:05:54,502 - com.baseClass.Library -INFO - Take Screen Shot
+2020-09-01 12:05:55,521 - com.baseClass.Library -INFO - Exiting the application and closing the browser
