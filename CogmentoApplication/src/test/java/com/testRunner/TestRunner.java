@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter: ",
 						"testng:target/testng-cucumber-reports/cuketestng.xml",
 						},
-		glue="com.loginSteps"
+		glue="com.homeSteps"
 		
 		//strict= true
 					

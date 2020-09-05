@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 1, 2020 12:05:41 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 4, 2020 09:08:16 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -68,7 +68,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -111,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -125,12 +124,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> skipped, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -141,12 +140,12 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='23.529%'><span class='strong'>4</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>13</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='76.471%'>13</span> skipped, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='76.471%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -164,85 +163,10 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf skip' status='skip' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Test the Edit functionality</span>
-						<span class='test-time'>Sep 1, 2020 12:05:43 PM</span>
-						<span class='test-status right skip'>skip</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
-<div class='scenario node' test-id='2' status='skip'>
-	<span class='duration right label'>0h 0m 0s+31ms</span>
-	<div class="bdd-test">
-		<div class="scenario-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span> Scenario: Edit company address</div>
-	</div>
-	<ul class='steps'>
-		<li test-id='3' class='node given skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Given launch the browser and navigate to the URL</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='4' class='node when skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When submit username and password</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='5' class='node then skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then should be logged in to home page</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='6' class='node when skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When click on setting gear in activity section</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='7' class='node then skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then dropdown for activity option should come</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='8' class='node when skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When select companies</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='9' class='node and skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And click on first company link</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='10' class='node then skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Company detal information should come</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='11' class='node when skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When click on edit</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='12' class='node then skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then it should allow editing company information</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='13' class='node and skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And edit company address</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='14' class='node and skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And click on save</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-		<li test-id='15' class='node then skip' status='skip'>
-			<div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then company information should be saved successfully</div>
-			<div class="node-step">Step undefined</div>
-		</li>
-	</ul>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='16'>
-					<div class='test-heading'>
-						<span class='test-name'>Test the Cogmento Application</span>
-						<span class='test-time'>Sep 1, 2020 12:05:43 PM</span>
+						<span class='test-time'>Sep 4, 2020 09:08:17 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -252,26 +176,62 @@
 	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='17' status='pass'>
-	<span class='duration right label'>0h 0m 12s+336ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 13s+962ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To check the login functionality of application</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Edit company address</div>
 	</div>
 	<ul class='steps'>
-		<li test-id='18' class='node given pass' status='pass'>
-			<div class="step-name" title="com.loginSteps.LoginSteps.launch_the_browser_and_navigate_to_the_URL()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Launch the browser and navigate to the URL</div>
+		<li test-id='3' class='node given pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.launch_the_browser_and_navigate_to_the_URL()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given launch the browser and navigate to the URL</div>
 			<div class="node-step"></div>
 		</li>
-		<li test-id='19' class='node when pass' status='pass'>
-			<div class="step-name" title="com.loginSteps.LoginSteps.enter_Email_and_password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Enter Email and password</div>
+		<li test-id='4' class='node when pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.submit_username_and_password()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When submit username and password</div>
 			<div class="node-step"></div>
 		</li>
-		<li test-id='20' class='node then pass' status='pass'>
-			<div class="step-name" title="com.loginSteps.LoginSteps.click_the_login_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click the login button</div>
+		<li test-id='5' class='node then pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.should_be_logged_in_to_home_page()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then should be logged in to home page</div>
 			<div class="node-step"></div>
 		</li>
-		<li test-id='21' class='node then pass' status='pass'>
-			<div class="step-name" title="com.loginSteps.LoginSteps.get_the_page_title_and_screen_shot()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Get the page title and screen shot</div>
+		<li test-id='6' class='node when pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.click_on_setting_gear_in_activity_section()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When click on setting gear in activity section</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='7' class='node then pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.dropdown_for_activity_option_should_come()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then dropdown for activity option should come</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='8' class='node when pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.select_companies()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When select companies</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='9' class='node and pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.click_on_first_company_link()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on first company link</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='10' class='node then pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.company_detal_information_should_come()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Company detal information should come</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='11' class='node when pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.click_on_edit()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When click on edit</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='12' class='node then pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.it_should_allow_editing_company_information()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then it should allow editing company information</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='13' class='node and pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.edit_company_address()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And edit company address</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='14' class='node and pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.click_on_save()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on save</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='15' class='node then pass' status='pass'>
+			<div class="step-name" title="com.homeSteps.HomeStep_EditCompanyInfo.company_information_should_be_saved_successfully()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then company information should be saved successfully</div>
 			<div class="node-step"></div>
 		</li>
 	</ul>
@@ -306,37 +266,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>17</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 1, 2020 12:05:41 PM</div>
+					<div class='panel-lead'>Sep 4, 2020 09:08:16 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 1, 2020 12:05:55 PM</div>
+			 		<div class='panel-lead'>Sep 4, 2020 09:08:31 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 13s+686ms</div>
+					<div class='panel-lead'>0h 0m 14s+884ms</div>
 				</div>
 			</div>
 		</div>
@@ -347,39 +307,39 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 2,
+                parentCount: 1,
 				passParent: 1,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 1,
-				exceptionsParent: 1,
-				childCount: 2,
+				skipParent: 0,
+				exceptionsParent: 0,
+				childCount: 1,
 				passChild: 1,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 1,
+				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 1,
-				grandChildCount: 17,
-				passGrandChild: 4,
+				exceptionsChild: 0,
+				grandChildCount: 13,
+				passGrandChild: 13,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 13,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 13,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Test the Edit functionality":0.031,"Test the Cogmento Application":12.336
+			        "Test the Edit functionality":13.962
 			};
 		</script>
 	

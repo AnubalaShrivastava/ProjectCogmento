@@ -2,6 +2,7 @@ package com.seleniumReusableFunctions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -62,6 +63,24 @@ public class SeleniumUtilities extends Library{
 			logger.info("Page is not verified");
 		}
 	}
+	//Alert Handling
+		public void alertHandle() {
+		
+			Set<String> winhandles = driver.getWindowHandles();// all the windows
+		   
+			for (String winhandle : winhandles) {
+				driver.switchTo().window(winhandle);
+				
+				try {
+					Thread.sleep(5000);
+				} catch (Exception e) {
+					
+				}
+				driver.findElement(By.xpath("/html/body/div[3]/div/div[3]/button[@class='ui red button']")).click();
+			}
+		   
+		   
+		}
 	public void quit() {
 		driver.close();
 		

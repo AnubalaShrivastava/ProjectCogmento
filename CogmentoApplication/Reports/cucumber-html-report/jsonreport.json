@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-01T19:05:42.914Z",
+        "start_timestamp": "2020-09-05T04:08:17.728Z",
         "line": 2,
         "name": "Edit company address",
         "description": "",
@@ -13,119 +13,158 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7700019000,
+              "status": "passed"
             },
             "line": 3,
             "name": "launch the browser and navigate to the URL",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.launch_the_browser_and_navigate_to_the_URL()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5431525300,
+              "status": "passed"
             },
             "line": 4,
             "name": "submit username and password",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.submit_username_and_password()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7003100,
+              "status": "passed"
             },
             "line": 5,
             "name": "should be logged in to home page",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.should_be_logged_in_to_home_page()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 65660200,
+              "status": "passed"
             },
             "line": 6,
             "name": "click on setting gear in activity section",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.click_on_setting_gear_in_activity_section()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 72633900,
+              "status": "passed"
             },
             "line": 7,
             "name": "dropdown for activity option should come",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.dropdown_for_activity_option_should_come()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 995500,
+              "status": "passed"
             },
             "line": 8,
             "name": "select companies",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.select_companies()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1009000,
+              "status": "passed"
             },
             "line": 9,
             "name": "click on first company link",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.click_on_first_company_link()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 994800,
+              "status": "passed"
             },
             "line": 10,
             "name": "Company detal information should come",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.company_detal_information_should_come()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 986600,
+              "status": "passed"
             },
             "line": 11,
             "name": "click on edit",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.click_on_edit()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 993800,
+              "status": "passed"
             },
             "line": 12,
             "name": "it should allow editing company information",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.it_should_allow_editing_company_information()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 992500,
+              "status": "passed"
             },
             "line": 13,
             "name": "edit company address",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.edit_company_address()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 997200,
+              "status": "passed"
             },
             "line": 14,
             "name": "click on save",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.click_on_save()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 739655800,
+              "status": "passed"
             },
             "line": 15,
             "name": "company information should be saved successfully",
-            "match": {},
+            "match": {
+              "location": "com.homeSteps.HomeStep_EditCompanyInfo.company_information_should_be_saved_successfully()"
+            },
             "keyword": "Then "
           }
         ]
@@ -135,77 +174,7 @@
     "description": "",
     "id": "test-the-edit-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/TestCase1.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-09-01T19:05:43.181Z",
-        "line": 2,
-        "name": "To check the login functionality of application",
-        "description": "",
-        "id": "test-the-cogmento-application;to-check-the-login-functionality-of-application",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 8925901400,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "Launch the browser and navigate to the URL",
-            "match": {
-              "location": "com.loginSteps.LoginSteps.launch_the_browser_and_navigate_to_the_URL()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 523241700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Enter Email and password",
-            "match": {
-              "location": "com.loginSteps.LoginSteps.enter_Email_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 102664000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Click the login button",
-            "match": {
-              "location": "com.loginSteps.LoginSteps.click_the_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2781522200,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Get the page title and screen shot",
-            "match": {
-              "location": "com.loginSteps.LoginSteps.get_the_page_title_and_screen_shot()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Test the Cogmento Application",
-    "description": "",
-    "id": "test-the-cogmento-application",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/TestCases.feature",
+    "uri": "file:src/test/resources/Features/Home.feature",
     "tags": []
   }
 ]
